@@ -18,7 +18,7 @@ namespace LibrarySystem.Console
             employee1.EmailAddress = "osama@osama.com";
             employee1.Password = "123456";
             employee1.CreatedAt = DateTime.UtcNow;
-            employee1.CreatedBy = 1; ;
+            employee1.CreatedBy = 1;
 
             employeeService.Add(employee1);
 
